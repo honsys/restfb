@@ -1,3 +1,5 @@
 target
 build
 pom.xml.asc
+/nbproject/private/
+nbproject
