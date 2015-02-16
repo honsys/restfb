@@ -509,14 +509,9 @@ out.println("URL is " + url);</code></pre></div>
 			    <div>
 				<ul style="list-style-type: decimal;">
 				    <li>Create a Facebook Application</li>
-				    <li>Request <code>https://graph.facebook.com/oauth/authorize?client_id=MY_API_KEY&amp;
-					    redirect_uri=http://www.facebook.com/connect/login_success.html&amp;
-					    scope=publish_stream,create_event</code></li>
-				    <li>Facebook will redirect you to <code>http://www.facebook.com/connect/login_success.html?
-					    code=MY_VERIFICATION_CODE</code></li>
-				    <li>Request <code>https://graph.facebook.com/oauth/access_token?client_id=MY_API_KEY&amp;
-					    redirect_uri=http://www.facebook.com/connect/login_success.html&amp;
-					    client_secret=MY_APP_SECRET&amp;code=MY_VERIFICATION_CODE</code></li>
+				    <li>Request <code>https://graph.facebook.com/&#8203;oauth/authorize?&#8203;client_id=MY_API_KEY&amp;&#8203;redirect_uri=http://www.facebook.com/&#8203;connect/login_success.html&amp;&#8203;scope=publish_stream,&#8203;create_event</code></li>
+				    <li>Facebook will redirect you to <code>http://www.facebook.com/&#8203;connect/&#8203;login_success.html?code=MY_VERIFICATION_CODE</code></li>
+				    <li>Request <code>https://graph.facebook.com/&#8203;oauth/access_token?&#8203;client_id=MY_API_KEY&amp;&#8203;redirect_uri=http://www.facebook.com/&#8203;connect/&#8203;login_success.html&amp;&#8203;client_secret=MY_APP_SECRET&amp;&#8203;code=MY_VERIFICATION_CODE</code></li>
 				    <li>Facebook will respond with <code>access_token=MY_ACCESS_TOKEN</code></li>
 				</ul>
 			    </div>
