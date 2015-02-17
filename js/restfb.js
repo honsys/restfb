@@ -1,7 +1,7 @@
 /*!
  * restfb v1.8.0 (http://www.restfb.com)
  * Copyright 2011-2015 restfb Team
- * Licensed under MIT (https://github.com/revetkn/restfb/tree/master/LICENSE)
+ * Licensed under MIT (https://github.com/restfb/restfb/blob/master/licensing/LICENSE-restfb)
  */
 // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
 // IT'S ALL JUST JUNK FOR OUR DOCS!
@@ -300,7 +300,7 @@ return((r[1].length===0)?r[0]:null);};Date.getParseFunction=function(fx){var fn=
 return((r[1].length===0)?r[0]:null);};};Date.parseExact=function(s,fx){return Date.getParseFunction(fx)(s);};
 
 $(document).ready(function() {
-     var url =  "https://api.github.com/repos/revetkn/restfb/releases";
+     var url =  "https://api.github.com/repos/restfb/restfb/releases";
      $.getJSON(url + "?callback=?", null, function(releases) {
         
 	if (releases.data.length > 0) {

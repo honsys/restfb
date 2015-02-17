@@ -1,5 +1,5 @@
 $(document).ready(function() {
-     var url =  "https://api.github.com/repos/revetkn/restfb/releases";
+     var url =  "https://api.github.com/repos/restfb/restfb/releases";
      $.getJSON(url + "?callback=?", null, function(releases) {
         
 	if (releases.data.length > 0) {
